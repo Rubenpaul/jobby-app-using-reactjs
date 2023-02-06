@@ -229,6 +229,7 @@ class Jobs extends Component {
           type="button"
           className="search-btn"
           onClick={this.onClickGetSearchResults}
+          data-testid="searchButton"
         >
           <BsSearch className="search-icon" />
         </button>
