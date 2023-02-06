@@ -1,0 +1,16 @@
+.filter-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.input {
+  height: 16px;
+  width: 16px;
+}
+
+.label {
+  color: #f1f5f9;
+  margin-left: 10px;
+  font-weight: 300;
+}

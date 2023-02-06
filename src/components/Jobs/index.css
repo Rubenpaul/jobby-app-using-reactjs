@@ -1,0 +1,237 @@
+.job-bottom-container {
+  background-color: #000000;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 45px;
+  padding-right: 45px;
+  font-family: 'Roboto';
+  display: flex;
+}
+
+.profile-and-filters-container-lg {
+  width: 320px;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-and-filters-container-lg {
+    display: none;
+  }
+}
+
+.profile-and-filters-container-sm {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-and-filters-container-sm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.profile-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.profile-pic {
+  height: 70px;
+  width: 70px;
+}
+.profile-heading {
+  margin-top: 0px;
+  font-size: 23px;
+  color: #4f46e5;
+  margin-top: 8px;
+  font-weight: 500;
+}
+.profile-designation {
+  color: #64748b;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.profile-failure-container {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-retry-btn {
+  height: 39px;
+  width: 110px;
+  color: #ffffff;
+  background-color: #4f46e5;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+.loader-container {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.horizontal-rule {
+  border: 1px solid #64748b;
+  width: 100%;
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+.filter-heading {
+  color: #ffffff;
+  font-size: 22px;
+  margin-top: 32px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.filter-container {
+  padding-left: 2px;
+}
+
+.search-and-job-results-container {
+  margin-top: 40px;
+  width: 70%;
+}
+@media screen and (max-width: 768px) {
+  .search-and-job-results-container {
+    width: 100%;
+  }
+}
+
+.search-container {
+  width: 380px;
+  height: 43px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #64748b;
+  background-color: transparent;
+  margin-bottom: 40px;
+  border-radius: 4px;
+}
+
+.search-input {
+  width: 90%;
+  height: 100%;
+  padding-left: 20px;
+  font-size: 16px;
+  border: 0px;
+  outline: none;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.search-icon {
+  height: 17px;
+  width: 17px;
+  color: #ffffff;
+}
+
+.search-btn {
+  height: 100%;
+  width: 60px;
+  border: 0px;
+  background-color: #272727;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobs-list-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
+
+.no-jobs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.no-job-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.no-jobs-found-img {
+  height: 400px;
+  width: 500px;
+}
+@media screen and (max-width: 768px) {
+  .no-jobs-found-img {
+    height: 200px;
+    width: 250px;
+  }
+}
+
+.no-jobs-heading {
+  color: #f8fafc;
+  font-size: 43px;
+}
+
+.no-jobs-para {
+  color: #f1f5f9;
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .failure-img {
+    height: 250px;
+    width: 350px;
+  }
+}
+.err-msg-heading {
+  color: #f8fafc;
+  font-size: 45px;
+  margin-top: 40px;
+}
+@media screen and (max-width: 768px) {
+  .err-msg-heading {
+    font-size: 24px;
+  }
+}
+.err-description {
+  color: #f1f5f9;
+  font-size: 17px;
+  font-weight: 300;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .err-description {
+    font-size: 12px;
+    padding-bottom: 20px;
+  }
+}
+
+.retry-btn {
+  height: 39px;
+  width: 110px;
+  color: #ffffff;
+  background-color: #4f46e5;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
