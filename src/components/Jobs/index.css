@@ -7,16 +7,24 @@
   font-family: 'Roboto';
   display: flex;
 }
+@media screen and (max-width: 768px) {
+  .job-bottom-container {
+    flex-direction: column;
+  }
+}
 
 .profile-and-filters-container-lg {
   width: 320px;
   margin-top: 40px;
   margin-right: 40px;
+  order: 0;
 }
 
 @media screen and (max-width: 768px) {
   .profile-and-filters-container-lg {
-    display: none;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 100%;
   }
 }
 
@@ -108,10 +116,12 @@
 .search-and-job-results-container {
   margin-top: 40px;
   width: 70%;
+  order: 1;
 }
 @media screen and (max-width: 768px) {
   .search-and-job-results-container {
     width: 100%;
+    order: 0;
   }
 }
 

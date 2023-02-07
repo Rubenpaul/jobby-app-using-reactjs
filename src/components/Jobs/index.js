@@ -385,15 +385,9 @@ class Jobs extends Component {
             <hr className="horizontal-rule" />
             {this.renderSalaryRangeFilters()}
           </div>
+
           <div className="search-and-job-results-container">
             {this.renderSearchBox()}
-            <div className="profile-and-filters-container-sm">
-              {this.renderProfileView()}
-              <hr className="horizontal-rule" />
-              {this.renderEmploymentFilter()}
-              <hr className="horizontal-rule" />
-              {this.renderSalaryRangeFilters()}
-            </div>
             {this.renderJobView()}
           </div>
         </div>
